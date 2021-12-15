@@ -1,0 +1,5 @@
+apiVersion: rainbond.io/v1alpha1
+kind: RainbondPackage
+metadata:
+  name: rainbondpackage
+  namespace: rbd-system

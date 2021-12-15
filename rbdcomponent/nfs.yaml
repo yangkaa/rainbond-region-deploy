@@ -1,0 +1,9 @@
+apiVersion: rainbond.io/v1alpha1
+kind: RbdComponent
+metadata:
+  name: nfs-provisioner
+  namespace: rbd-system
+spec:
+  image: registry.cn-hangzhou.aliyuncs.com/goodrain/nfs-provisioner:v5.5.0-release
+  imagePullPolicy: IfNotPresent
+  priorityComponent: true

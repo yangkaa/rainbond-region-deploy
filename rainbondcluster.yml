@@ -1,0 +1,15 @@
+apiVersion: rainbond.io/v1alpha1
+kind: RainbondCluster
+metadata:
+  name: rainbondcluster
+  namespace: rbd-system
+spec:
+  cacheMode: hostpath
+  imageHub:
+    domain: goodrain.me
+    password: b28fdc1c
+    username: admin
+  installMode: WithoutPackage
+  installVersion: v5.5.0-release
+  rainbondImageRepository: registry.cn-hangzhou.aliyuncs.com/goodrain
+  suffixHTTPHost: b21699.grapps.cn
